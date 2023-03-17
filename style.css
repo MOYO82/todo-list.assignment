@@ -2,7 +2,7 @@
   font-family: cursive;
   background-color: aqua;
   font-size: 20px;
-  
+ 
 }
 
 .todo_container{
@@ -13,8 +13,8 @@
     padding: 0px 10px 10px 10px;
     border-radius: 10px;
 }
-#item{
-  width: 450px;
+#newItem{
+  width: 460px;
 }
 form {
   padding-top: 5px;
@@ -23,6 +23,7 @@ label {
   font-size: 1em;
   font-weight: 500px;
   padding-right: 10px;
+  
 }
 
 button{
@@ -39,13 +40,14 @@ button{
 
 .list_container {
   border-radius: 10px;
-  padding-bottom: 30px;
   margin: 20px;
   font-family: cursive;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   gap: 4px;
+  padding-left: 400px ;
+  align-items: center;
 }
 
 h1{
@@ -56,7 +58,6 @@ h1{
   background-color: green;
 }
 input{
-  direction: right;
-  margin: 12px;
-
+  margin: 10px;
+  padding-right: 50px;
 }
